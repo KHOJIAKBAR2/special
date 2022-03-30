@@ -1,0 +1,31 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+.search-box {
+  width: 500px;
+  height: 64px;
+  background: #283036;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+}
+input {
+  height: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #fff;
+}
+input::placeholder {
+  color: rgba(255, 255, 255, 0.38);
+}
+button {
+  width: 130px;
+  height: 48px;
+  background: #ff6e30;
+  border-radius: 8px;
+  color: #fff;
+  border: none;
+    outline: none;
+}
